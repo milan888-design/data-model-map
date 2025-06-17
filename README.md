@@ -1,5 +1,5 @@
 # data-model-map  
-Data Model Mapping and Repository Framework  
+Data Model Mapping and Repository 
 
 Problem: The process of mapping between models or schemas is time-consuming and requires manual effort. Once a subject matter expert completes the mapping, writing code to transform the data becomes straightforward.  
 
