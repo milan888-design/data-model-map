@@ -1,0 +1,21 @@
+﻿rowid,active_flag,menu_type,Connector_type,Connector_Source,Connector_Target,Connector_type_LeftRight,Connector_type_RightLeft,diaplay_name,example_description
+A Category has many primary Subcategories,Y,SME,Category to Category,Category,Category,A Category has many primary Subcategories,A subcategory belong to one primary Category,Primary Subcategories,"Example:  Crime has Burglary, Robbery"
+A Category has many secondary Subcategories,Y,SME,Category to Category,Category,Category,A Category has many secondary Subcategories,A subcategory belong to many secondary Categories,Secondary Subcategories,Example: Burglary is type of a Crime and Property crime
+A Category is related to another Category,Y,SME,Category to Category,Category,Category,A Category is related to another Category,A Category is related to another Category,Related Category,Example: Crime creates Fear
+A Category is same as another Category,Y,SME,Category to Category,Category,Category,A Category is same as another Category,A Category is same as another Category,Same as another Category,Example: Car is same as Automobile
+A Category is stored in a Schema,Y,IT,Category to Schema,Category,Schema,A Category is stored in a Schema,A Schema stores a Category,,
+A Component Category belong to many Assembly Categories,Y,MFG,Component to Assembly,Component,Assembly,A Component Category belong to many Assembly Categories,An Assembly Category has many Component Categories,,
+A Component Item belong to an Assembly Item,Y,MFG,Compnent Item to Assembly Item,Component Item,Assembly Item,A Component Item belong to an Assembly Item,An Assembly Item has many Component Items,,
+A primary Category has many Items,Y,SME,Category to Item,Category,Item,A primary Category has many Items,An Item belong one primary Category,Primary Items,Example: Forest Fire has  2018California and 2019California
+A Schema refereces another Schema,Y,IT,Schema to Schema,Schema,Schema,A Schema refereces another Schema,A Schema refereces another Schema,,
+A Schema stores a Category,Y,IT,Schema to Category,Schema,Category,A Schema stores a Category,A Category is stored in a Schema,,
+A Schema stores an Item,Y,IT,Schema to Item,Schema,Item,A Schema stores an Item,An Item is stored in a Schema,,
+A Secondary Category has many Items,Y,SME,Category to Item,Category,Item,A Secondary Category has many Items,An Item belong many Secondary Category,Secondary Items,Example: Natural Disaster has  2018 California Fir and 2018 California Fire
+A subcategory belong to many secondary Categories,Y,SME,Category to Category,Category,Category,A subcategory belong to many secondary Categories,A Category has many secondary Subcategories,Secondary Parent Category,Example: Burglary is type of a Crime and Property crime
+A subcategory belong to one primary Category,Y,SME,Category to Category,Category,Category,A subcategory belong to one primary Category,A Category has many primary Subcategories,Primary Parent Category,Burglary is type of a Crime
+An Assembly Category has many Component Categories,Y,MFG,Assembly to Component,Assembly,Component,An Assembly Category has many Component Categories,A Component Category belong to many Assembly Categories,,
+An Assembly Item has many Component Items,Y,MFG,Assembly Item to Component Item,Assembly Item,Component Item,An Assembly Item has many Component Items,A Component Item belong to an Assembly Item,,
+An Item belong many secondary Categories,Y,SME,Item to Category,Item,Category,An Item belong many secondary Categories,A Secondary category has many Items,Secondary Categories,Example: 2018 California Fire is type of a Forest Fire and Natural Disaster
+An Item belong one primary Category,Y,SME,Item to Category,Item,Category,An Item belong one primary Category,A primary Category has many Items,Primary Category,Example: 2018 California Fire is type of a Forest Fire
+An Item is related to another Item,Y,SME,Item to Item,Item,Item,An Item is related to another Item,An Item is related to another Item,Related Items,Example: Syrian civil war caused Syrian Refuge crisis
+An Item is stored in a Schema,Y,IT,Item to Schema,Item,Schema,An Item is stored in a Schema,A Schema stores an Item,,
