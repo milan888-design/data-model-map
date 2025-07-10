@@ -1,11 +1,7 @@
 from sqlalchemy import Table, create_engine, MetaData, delete
 from sqlalchemy.orm import sessionmaker
-db_name='alm'  
-#db_name='datajoin'  
-#db_name='datasum'
-db_connectionstring='postgresql://postgres:Welcome123@localhost:5432/'
-#engine1 = create_engine('postgresql://postgres:Welcome123@localhost:5432/datasum')
-#engine1 = create_engine('postgresql://postgres:Welcome123@localhost:5432/datajoin')
+db_name='test_etl_db1'
+db_connectionstring='postgresql://postgres:pass@localhost:5432/'
 engine1 = create_engine(db_connectionstring+db_name)
 metadata1 = MetaData()
 metadata1.reflect(bind=engine1)
@@ -27,8 +23,6 @@ print("Tables in the database:")
 for table1 in table_list1:
     print(table1)
     table_name = table1
-    #db_name='datasum'  
-    #engine = create_engine('postgresql://postgres:Welcome123@localhost:5432/datasum')
     engine = create_engine(db_connectionstring+db_name)
     metadata = MetaData()
     metadata.reflect(bind=engine)
