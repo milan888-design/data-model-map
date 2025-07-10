@@ -1,0 +1,7 @@
+"schema_table_key","schema_key","tablename"
+"test_etl_db1|product_type","test_etl_db1","product_type"
+"test_etl_db1|sales_order","test_etl_db1","sales_order"
+"test_etl_db1|st_mapping_set_detail_v3","test_etl_db1","st_mapping_set_detail_v3"
+"test_etl_db1|st_mapping_set_v3","test_etl_db1","st_mapping_set_v3"
+"test_etl_db1|st_schema_attribute","test_etl_db1","st_schema_attribute"
+"test_etl_db1|st_schema_table","test_etl_db1","st_schema_table"
