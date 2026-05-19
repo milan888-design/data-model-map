@@ -7,8 +7,8 @@ Solution: The process of model or schema mapping can be semi-automated using alg
 
 DataJoin.net provides in-depth education and consultation on Model map repository.  
 
-milan@datajoin.net  
-http://datajoin.net  
+milanp979@gmail.com  
+https://systemdna.com  
 
 ## Flowchart  
 ```mermaid
